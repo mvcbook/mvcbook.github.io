@@ -6,7 +6,7 @@ body{
 }
 
 .card{
-    display: flex;
+    display: block;
     width: 1360px;
     height: auto;
     margin: 0 auto;
@@ -19,7 +19,7 @@ body{
 .card-photo{
     width: 1360px;
     height: auto;
-    display: flex;
+    display: block;
     margin: 0 auto;
     justify-content: space-between;
 
