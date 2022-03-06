@@ -5,8 +5,14 @@ body{
 
 }
 
+.head{
+    color: #242424;
+    flex: none;
+    margin-bottom: 20px;
+}
 .card{
-    display: block;
+    display: flex;
+
     height: 117px;
     justify-content: space-between;
     width: 1349px;
@@ -18,21 +24,52 @@ body{
 .card-photo{
     display: block;
     height: auto;
-    justify-content: space-between;
+    justify-content: center;
     width: 800px;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 10px 0 250px;
 }
-
+.o-group{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
 .c-button {
-    color: #ccc;
+    margin-right: 5px;
+    --color: #ccc;
     position: relative;
+    display: inline-block;
+    height: var(--height);
+    padding: 0 calc(var(--height)*.5);
+    color: #ccc;
+    background: none;
+    border-radius: 99%;
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    line-height: var(--height);
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    fill: currentColor;
+    --height: 30px;
+    font-size: 15px;
 }
 
 .card-text{
     font-size: 15px;
+    text-align: center;
 }
-
+.card-text1{
+    font-size: 15px;
+    text-align: start;
+    margin: 10px;
+}
 .card-glov{
     text-align: center;
     color: #1a1812;
