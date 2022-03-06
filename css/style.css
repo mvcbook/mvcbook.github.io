@@ -16,7 +16,7 @@ body{
 .card{
     display: flex;
     align-items: center;
-    height: auto;
+    height: 117px;
     justify-content: center;
     width: 1350px;
     align-items: center;
