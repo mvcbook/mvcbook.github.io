@@ -6,16 +6,19 @@ body{
 }
 
 .head{
+    position: fixed;
+    top: 0;
+
     color: #242424;
     flex: none;
     margin-bottom: 20px;
 }
 .card{
     display: flex;
-
-    height: 117px;
-    justify-content: space-between;
-    width: 1349px;
+    align-items: center
+    height: auto;
+    justify-content: center;
+    width: 1350px;
     align-items: center;
     margin: 0 auto;
     background-color: #242424;
@@ -32,7 +35,7 @@ body{
 .o-group{
     display: flex;
     justify-content: flex-end;
-        
+    align-items: center;
 }
 .c-button {
     margin-right: 5px;
@@ -50,6 +53,7 @@ body{
 }
 
 .card-text{
+    padding-top: 150px;
     font-size: 15px;
     text-align: center;
 }
