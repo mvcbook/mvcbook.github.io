@@ -32,33 +32,21 @@ body{
 .o-group{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    box-sizing: border-box;
+        
 }
 .c-button {
     margin-right: 5px;
-    --color: #ccc;
-    position: relative;
     display: inline-block;
     height: var(--height);
     padding: 0 calc(var(--height)*.5);
     color: #ccc;
-    background: none;
-    border-radius: 99%;
-    border: 0;
-    outline: 0;
-    font-weight: 700;
+    background-color: #313131;
+    border-radius: 99px;
     line-height: var(--height);
     text-decoration: none;
     text-align: center;
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-    vertical-align: middle;
-    appearance: none;
-    fill: currentColor;
-    --height: 30px;
-    font-size: 15px;
+    --height: 35px;
+    font-size: 17px;
 }
 
 .card-text{
