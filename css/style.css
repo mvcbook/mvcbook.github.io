@@ -6,18 +6,22 @@ body{
 }
 
 .card{
-    display: block;
-    width: 1360px;
+    display: flex;
     height: 200px;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
     margin: 0 auto;
     background-color: #bebcbc;
     box-shadow: 0 0px 20px #000000;
    }
 
 .card-photo{
-    width: 1360px;
+    display: flex;
     height: 200px;
-    display: block;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
     margin: 0 auto;
 }
 
