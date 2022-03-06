@@ -7,9 +7,9 @@ body{
 
 .card{
     display: block;
-    height: 200px;
+    height: auto;
     justify-content: space-between;
-    width: auto;
+    width: 1156px;
     align-items: center;
     margin: 0 auto;
     background-color: #bebcbc;
@@ -18,9 +18,9 @@ body{
 
 .card-photo{
     display: block;
-    height: 200px;
+    height: auto;
     justify-content: space-between;
-    width: auto;
+    width: 1156px;
     align-items: center;
     margin: 0 auto;
 }
