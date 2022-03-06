@@ -7,7 +7,7 @@ body{
 
 .card{
     display: block;
-    height: auto;
+    height: 168px;
     justify-content: space-between;
     width: 1156px;
     align-items: center;
