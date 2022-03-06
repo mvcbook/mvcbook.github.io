@@ -7,20 +7,19 @@ body{
 
 .card{
     display: block;
-    height: 168px;
+    height: 117px;
     justify-content: space-between;
-    width: 1156px;
+    width: 1349px;
     align-items: center;
     margin: 0 auto;
-    background-color: #bebcbc;
-    box-shadow: 0 0px 20px #000000;
+    background-color: #242424;
    }
 
 .card-photo{
     display: block;
     height: auto;
     justify-content: space-between;
-    width: 1156px;
+    width: 800px;
     align-items: center;
     margin: 0 auto;
 }
