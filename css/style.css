@@ -15,13 +15,13 @@ body{
 }
 .card{
     display: flex;
-    align-items: center
+    align-items: center;
     height: auto;
     justify-content: center;
     width: 1350px;
     align-items: center;
     margin: 0 auto;
-    background-color: #242424;
+    background-color: #242424;    
    }
 
 .card-photo{
@@ -37,6 +37,7 @@ body{
     justify-content: flex-end;
     align-items: center;
 }
+
 .c-button {
     margin-right: 5px;
     display: inline-block;
@@ -50,6 +51,11 @@ body{
     text-align: center;
     --height: 35px;
     font-size: 15px;
+}
+
+.o-group :hover{
+    transition: All 0.1s ease;
+    background-color: #696969;
 }
 
 .card-text{
