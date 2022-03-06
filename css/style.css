@@ -24,6 +24,11 @@ body{
     margin: 0 auto;
 }
 
+.c-button{
+    color: #ccc;
+    position: relative;
+}
+
 .card-text{
     font-size: 15px;
 }
