@@ -8,21 +8,17 @@ body{
 .card{
     display: block;
     width: 1360px;
-    height: auto;
+    height: 200px;
     margin: 0 auto;
     background-color: #bebcbc;
     box-shadow: 0 0px 20px #000000;
-    justify-content: space-between;
-
-}
+   }
 
 .card-photo{
     width: 1360px;
-    height: auto;
+    height: 200px;
     display: block;
     margin: 0 auto;
-    justify-content: space-between;
-
 }
 
 .card-text{
