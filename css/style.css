@@ -62,20 +62,40 @@ body{
     font-size: 14px;
 }
 
-.card-pidarac {
+.pidarac {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 
+.card-text2, .card-text3 {
+    text-align: center;
+    width: 40%;
+}
 
-.card-photos img{
+    
+
+.card-text2 img{
     transition: all 0.5s ease-out;
 }
 
-.card-photos img:hover{
+.card-text2 img:hover{
     transform: scale(1.1);
+}
+
+.card-text3 img{
+    transition: all 0.5s ease-out;
+}
+
+.card-text3 img:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+    .card-text2, .card-text3 {
+        width: 80%;   
 }
 
 .card-contact{
