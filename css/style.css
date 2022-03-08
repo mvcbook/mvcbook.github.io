@@ -17,7 +17,9 @@ body{
        
 }
 .o-group {
+   
     margin: 10px;
+
        
 }
 
@@ -60,11 +62,13 @@ body{
     font-size: 14px;
 }
 
-.card-text2{
-    margin: 15px;
+.card-pidarac {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+
 }
+
 
 .card-photos img{
     transition: all 0.5s ease-out;
@@ -72,21 +76,6 @@ body{
 
 .card-photos img:hover{
     transform: scale(1.1);
-}
-
-.card-photos{
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    z-index: 3;
-    }
-
-
-
-.card-photos1{
-    width: 550px;
-    height: auto;
-    margin: 0 15px 0 63px;
 }
 
 .card-contact{
