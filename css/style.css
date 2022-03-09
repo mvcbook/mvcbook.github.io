@@ -1,26 +1,35 @@
-html{
+html {
     display: flex;
     justify-content: center;
 }
-body{
+
+body {
     background-color: #a2a2a2;
     font-family: 'Verdana', sans-serif;
     margin: 0;
 }
 
-.card-photo{
+.card-photo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: fixed;
     z-index: 1;
-       
 }
-.o-group {
-   
-    margin: 10px;
 
-       
+.form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 600px;
+    background-color: #CCC;
+    transform: translate(-50%, -50%);
+    border: 1px solid #333;
+    z-index: 2;
+}
+
+.o-group {
+    margin: 10px;
 }
 
 .c-button {
@@ -38,67 +47,70 @@ body{
     font-size: 15px;
 }
 
-.o-group :hover{
+.o-group :hover {
     transition: All 0.1s ease;
     background-color: #696969;
 }
 
-.card-text{
+.card-text {
     padding-top: calc(100vw/1366*200);
     font-size: 15px;
     text-align: center;
 }
-.card-text1{
+
+.card-text1 {
     font-size: 15px;
     text-align: start;
     margin: 10px;
 }
-.card-glov{
+
+.card-glov {
     text-align: center;
     color: #1a1812;
 }
 
-.card-subtext{
+.card-subtext {
     font-size: 14px;
 }
 
 .pidarac {
     display: flex;
     justify-content: space-around;
-    width: 100%;
     flex-wrap: wrap;
-
+    z-index: -1;
 }
 
-.card-text2, .card-text3 {
+.card-text2,
+.card-text3 {
     text-align: center;
     width: 40%;
+    text-transform: uppercase;
 }
 
-    
-
-.card-text2 img{
+.card-text2 img {
     transition: all 0.5s ease-out;
 }
 
-.card-text2 img:hover{
+.card-text2 img:hover {
     transform: scale(1.1);
 }
 
-.card-text3 img{
+.card-text3 img {
     transition: all 0.5s ease-out;
 }
 
-.card-text3 img:hover{
+.card-text3 img:hover {
     transform: scale(1.1);
 }
 
 @media screen and (max-width: 500px) {
-    .card-text2, {
-        width: 80%;   
+    .card-text2,
+    .card-text3 {
+        width: 80%;
+    }
 }
 
-.card-contact{
+.card-contact {
     font-size: 14px;
     margin: 10px 15px;
 }
