@@ -1,6 +1,6 @@
 $("document").ready(function() {
-    $('div1').remove();
-    $('c-button').on(click, function() {
-        alert('div1');
+
+    $("c-button").click(function() {
+        $("#value1").css("display", "block");
     });
 });
