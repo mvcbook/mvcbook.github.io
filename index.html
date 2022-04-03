@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Жига просто</title>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Img/InShot_20190403_155109860.jpg">
+    <script type="text/javascript" src="jquery-3.6.0.min.js">
+    </script>
     <script type="text/javascript" src="script.js"></script>
 
 </head>
@@ -23,6 +25,41 @@
         <h1>Мій блог</h1>
         <p>Мене звати Богдан і цей міг блог. В ньому я розкажу як з простої ВАЗ 2107 зробити проект під зимовий дріфт.
         </p>
+        <div id="value2" class="form">
+            <div class="f-text">
+                <label for="login">Ім'я</label>
+                <div class="f-subtext">
+                    <p>Вкажіть номер або пошту користувача</p>
+                </div>
+                <div class="f-holst ">
+                    <input type="text " name="username " placeholder="Username ">
+                </div>
+            </div>
+            <br>
+            <div class="f-text ">
+                <label for="password ">Пароль</label>
+                <div class="f-subtext">
+                    <p>Придумайте пароль, не менше 8 символ</p>
+                </div>
+                <div class="f-holst ">
+                    <input type="password " name="password " placeholder="Password ">
+                </div>
+                <br>
+                <div class="checkbox">
+                    <label class="a-checkbox">
+                        <input type="checkbox" name="rememberMe" value="True" checked>
+                        <span class="b-checkbox"></span>
+                        <span class="c-checkbox">Запам'ятати мене</span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="o-group12 ">
+                <a class="v-button" href="# ">
+                    Зареєструватися
+                </a>
+            </div>
+        </div>
         <div id="value1" class="form">
             <div class="f-text ">
                 <label for="login ">Ім'я</label>
@@ -126,10 +163,10 @@
     </div>
     </div>
     <div class="o-group ">
-        <a class="c-button" href="# ">
+        <a id="but1" class="c-button" href="# ">
             <b>Вхід</b>
         </a>
-        <a class="c-button" href="# ">
+        <a id="but2" class="c-button" href="# ">
             <b>Реєстрація</b>
         </a>
     </div>
